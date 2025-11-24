@@ -26,14 +26,14 @@ const Footer = () => {
           <div>
             <h5 className="font-bold mb-4">Contact Info</h5>
             <ul className="space-y-2 text-gray-400">
-              <li>📞 +123 456 7890</li>
-              <li>✉️ info@agroglobal.com</li>
-              <li>📍 Your Farm Location</li>
+              <li>📞 +263773039058</li>
+              <li>✉️ agroglobalzw@gmail.com</li>
+              <li>📍(Location cooming soon)</li>
             </ul>
           </div>
         </div>
         <div className="border-t border-gray-800 pt-8 text-center text-gray-400">
-          <p>&copy; 2024 AgroGlobal. Reducing farming costs, one feed at a time.</p>
+          <p>&copy; 2025 AgroGlobal.All rights reserved.</p>
         </div>
       </div>
     </footer>
