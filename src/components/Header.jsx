@@ -13,20 +13,20 @@ const Header = ({ cartItemsCount, onCartClick, user, onAuthClick, onLogout }) =>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-10">
             <div className="flex gap-4 items-center">
-              <a href="tel:+1234567890" className="flex items-center gap-1 hover:text-green-200">
+              <a href="tel:+263773039058" className="flex items-center gap-1 hover:text-green-200">
                 <Phone size={14} />
                 <span className="hidden sm:inline">+1 (234) 567-890</span>
               </a>
-              <a href="mailto:info@agroglobal.com" className="flex items-center gap-1 hover:text-green-200">
+              <a href="mailto:agroglobalzw@gmail.com" className="flex items-center gap-1 hover:text-green-200">
                 <Mail size={14} />
-                <span className="hidden sm:inline">info@agroglobal.com</span>
+                <span className="hidden sm:inline">agroglobalzw@gmail.com</span>
               </a>
             </div>
             <div className="text-xs">
               {user ? (
                 <span>Welcome, {user.name}!</span>
               ) : (
-                <span>Free shipping on orders over $100</span>
+                <span>Free delivery on orders over $200</span>
               )}
             </div>
           </div>
